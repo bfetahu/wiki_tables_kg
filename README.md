@@ -39,3 +39,10 @@ The RDF dumps (split into several files) is provided in RDF turtle format [dump]
 
 ### WikiTablesKG SPARQL Endpoint
 You can have query access in the WikiTablesKG via our Virtuoso SPARQL Endpoint [here](http://www.tablenet.l3s.uni-hannover.de/sparql).
+
+
+### WikiTablesKG Code
+
+You can access two code repositories for generating the WikiTablesKG:
+* [Table Extractor](code/table_extractor/) extracts from Wikipedia's HTML content the corresponding tables.
+* [WikiTablesKG Code](code/wikitblkg/) contains the code for generating the WikiTablesKG graph from the extracted tables.
