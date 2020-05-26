@@ -17,6 +17,7 @@ In order to extract the table stats from TableNet. Please run the following comm
 
 `python table_stats.py -i tbl_file_path -o . -t category_taxonomy_path -ec entity_category_assoc_file`
 
+
 The stats output are of the following type:
 
 `[TABLE ID] [TABLE Entity] [Entity Section] [Num Table Rows] [Column Index] [Column Name] [Column Type]`
@@ -24,6 +25,7 @@ The stats output are of the following type:
 
 ### WikiTablesKG Stats
 In order to extract the stats from the WikiTablesKG knowledge graph. Please run the following command:
+
 `python kg_stats.py -i kg_input_files -o . -f a`
 
 The output from this process are several files containing various KG statistics.
