@@ -35,7 +35,7 @@ WikiTablesKG metadata is provided as an RDF turtle [file](metadata.ttl).
 
 ### WikiTablesKG RDF Dumps
 
-The RDF dumps (split into several files) is provided in RDF turtle format [dump](http://l3s.de/~fetahu/wikitables_kg/rdf_dumps/) 
+The RDF dumps (split into several files) is provided in RDF turtle format [dump](http://l3s.de/~fetahu/wikitables_kg/rdf_dumps/).
 
 ### WikiTablesKG SPARQL Endpoint
 You can have query access in the WikiTablesKG via our Virtuoso SPARQL Endpoint [here](http://www.tablenet.l3s.uni-hannover.de/sparql).
