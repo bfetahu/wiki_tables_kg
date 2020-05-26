@@ -1,0 +1,39 @@
+@prefix tn: < http://tablenet.l3s.uni-hannover.de/TableNet#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+
+tn:TableNet a void:Dataset ;
+	dct:title "WikiTablesKG Dataset";
+	dct:description "Tabular data extracted from Wikipedia";
+	foaf:homepage <http://github.com/bfetahu/wikitableskg/> ;
+	dct:source dbr:Wikipedia ;
+	dct:license <https://creativecommons.org/licenses/by-sa/4.0/>;
+	dct:creator tn:Besnik_Fetahu;
+	dct:creator tn:Maria_Koutraki;
+	void:dataDump <https://tablenet.l3s.uni-hannover.de/rdf/> ;
+	dct:modified "2020-05-01"^^xsd:date;
+	tn:wikipeidaVersion "2018-06-01"^^xsd:date;
+	voaf:classNumber 4;
+	voaf:propertyNumber 21;
+	void:triples 1227765424;
+	tn:numberOfTables 3238201;
+	void:sparqlEndpoint <https://tablenet.l3s.uni-hannover.de/sparql/>.
+
+
+tn:Besnik_Fetahu a foaf:Person ;
+	rdfs:label "Besnik Fetahu" ;
+	foaf:homepage <https://bfetahu.github.io>; 
+	foaf:mbox <mailto:fetahu@l3s.de> ;
+	owl:sameAs wd:Q33292049.
+
+tn:Maria_Koutraki a foaf:Person ;
+	rdfs:label "Maria Koutraki" ;
+	foaf:homepage <https://koutraki.github.io>; 
+	foaf:mbox <mailto:koutraki@l3s.de> ;
+	owl:sameAs wd:Q48621641.
