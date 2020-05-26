@@ -22,16 +22,20 @@ In the following  picture the predicates are depicted as directed arrows, with t
 Following are the prefixes used in the WikiTablesKG schema.
 ![](images/prefixes.png)
 
-# WikiTablesKG Ontology
+# Resource Overview
+WikiTablesKG is composed of the following resources, which can be accessed
+through the provided links
+
+### WikiTablesKG Ontology
 WikiTablesKG ontology is provided as an OWL [file](ontology.owl).
 
-# WikiTablesKG Metadata
+### WikiTablesKG Metadata
 WikiTablesKG metadata is provided as an RDF turtle [file](metadata.ttl).  
 
 
-# WikiTablesKG RDF Dumps
+### WikiTablesKG RDF Dumps
 
 The RDF dumps (split into several files) is provided in RDF turtle format [dump](http://l3s.de/~fetahu/wikitables_kg/rdf_dumps/) 
 
-# WikiTablesKG SPARQL Endpoint
+### WikiTablesKG SPARQL Endpoint
 You can have query access in the WikiTablesKG via our Virtuoso SPARQL Endpoint [here](http://www.tablenet.l3s.uni-hannover.de/sparql).
