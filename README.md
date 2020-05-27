@@ -46,3 +46,9 @@ You can have query access in the WikiTablesKG via our Virtuoso SPARQL Endpoint [
 You can access two code repositories for generating the WikiTablesKG:
 * [Table Extractor](code/table_extractor/) extracts from Wikipedia's HTML content the corresponding tables.
 * [WikiTablesKG Code](code/wikitblkg/) contains the code for generating the WikiTablesKG graph from the extracted tables.
+
+## Examples of dereferencable URIs
+* [https://www.tablenet.l3s.uni-hannover.de/TableNet/table/5517656](https://www.tablenet.l3s.uni-hannover.de/TableNet/table/5517656)
+* [https://www.tablenet.l3s.uni-hannover.de/TableNet/column/5517656_0_Origin](https://www.tablenet.l3s.uni-hannover.de/TableNet/column/5517656_0_Origin)
+* [http://www.tablenet.l3s.uni-hannover.de/TableNet/json/5517656](http://www.tablenet.l3s.uni-hannover.de/TableNet/json/5517656)
+
